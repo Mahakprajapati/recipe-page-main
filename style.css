@@ -1,0 +1,128 @@
+body {
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 229, 216);
+    min-height: 100vh;
+}
+
+.container {
+    margin-block: 4em;
+    padding: 2.5em;
+    width: 100%;
+    max-width: 610px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2em;
+    font-size: 0.9em;
+}
+.container h1{
+    font-family: 'Young Serif',serif;
+}
+.container p{
+    font-family: 'Outfit';
+    line-height: 1.5em;
+}
+span{
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+    min-height: 280px;
+    max-width: 610px;
+    border-radius: 0.5em;
+}
+
+.timing-container {
+    font-family: 'Outfit',sans-serif;
+    padding: 1em;
+    background-color: rgb(255, 247, 252);
+    border-radius: 0.5em;
+    margin-top: 2em;
+    line-height: 1.9em;
+}
+
+.timing-container li {
+    padding-left: 0.5em;
+    margin-left: -0.9em;
+}
+
+.timing-container ul h2 {
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    margin-left: -2em;
+    color: rgb(133, 58, 91);
+    font-weight: 600;
+}
+
+.timing-container li::marker {
+    color: rgb(133, 58, 91);
+}
+
+.Ingredients-container h1 {
+    margin-left: -1.8em;
+    color: rgb(131, 71, 57);
+    font-weight: 600;
+    font-family: 'Young Serif',serif;
+}
+
+.Ingredients-container li {
+    padding-left: 1em;
+    margin-left: -1.5em;
+    font-family: 'Outfit',sans-serif;
+    line-height: 1.6em;
+}
+
+.Ingredients-container li::marker {
+    color: rgb(131, 71, 57);
+}
+
+.Instructions-container h1 {
+    margin-left: -1.8em;
+    color: rgb(131, 71, 57);
+    font-weight: 600;
+    font-family: 'Young Serif',serif;
+}
+
+.Instructions-container li::marker {
+    color: rgb(131, 71, 57);
+}
+
+.Instructions-container li {
+    padding-left: 1em;
+    margin-left: -1.8em;
+    font-family: 'Outfit',sans-serif;
+    line-height: 1.6em;
+}
+
+.Nutrition-container h1 {
+    color: rgb(131, 71, 57);
+    font-family: 'Young Serif',serif;
+}
+
+.innerNC div p {
+    color: rgb(149,97,83);
+    margin: 0;
+    margin-right: 15em;
+    font-weight: 800;
+    font-family: 'Outfit',sans-serif;
+}
+
+.innerNC div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Outfit',sans-serif;
+}
+
+.innerNC div h5 {
+    margin: 0;
+    margin-left: 1em;
+    font-weight: 100;
+    font-family: 'Outfit',sans-serif;
+}
