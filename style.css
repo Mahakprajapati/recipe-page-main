@@ -11,13 +11,14 @@ main {
 }
 
 .container {
-    margin-block: 4em;
-    padding: 2.5em;
+    padding: 1em;
     width: 100%;
-    max-width: 610px;
+    max-width: 591px;
     background-color: rgb(255, 255, 255);
-    border-radius: 2em;
+    border-radius: 1em;
     font-size: 0.9em;
+    margin-block: 3em;
+    margin-inline: 3em;
 }
 .container h1{
     font-family: 'Young Serif',serif;
@@ -26,6 +27,9 @@ main {
     font-family: 'Outfit';
     line-height: 1.5em;
 }
+.image-container{
+    max-width: 591px;
+}
 span{
     font-weight: 600;
 }
@@ -33,8 +37,7 @@ span{
 img {
     width: 100%;
     min-height: 280px;
-    max-width: 610px;
-    border-radius: 0.5em;
+    max-width: 591px;
 }
 
 .timing-container {
@@ -52,10 +55,9 @@ img {
 }
 
 .timing-container ul h2 {
-    margin: 0;
     margin-top: 0;
     margin-bottom: 0.5em;
-    margin-left: -2em;
+    margin-left: -0.9em;
     color: rgb(133, 58, 91);
     font-weight: 600;
 }
@@ -65,7 +67,7 @@ img {
 }
 
 .Ingredients-container h1 {
-    margin-left: -1.8em;
+    margin-left: -0.5em;
     color: rgb(131, 71, 57);
     font-weight: 600;
     font-family: 'Young Serif',serif;
@@ -73,7 +75,6 @@ img {
 
 .Ingredients-container li {
     padding-left: 1em;
-    margin-left: -1.5em;
     font-family: 'Outfit',sans-serif;
     line-height: 1.6em;
 }
@@ -83,7 +84,7 @@ img {
 }
 
 .Instructions-container h1 {
-    margin-left: -1.8em;
+    margin-left: -0.5em;
     color: rgb(131, 71, 57);
     font-weight: 600;
     font-family: 'Young Serif',serif;
@@ -95,7 +96,6 @@ img {
 
 .Instructions-container li {
     padding-left: 1em;
-    margin-left: -1.8em;
     font-family: 'Outfit',sans-serif;
     line-height: 1.6em;
 }
@@ -106,11 +106,11 @@ img {
 }
 
 .innerNC div p {
-    color: rgb(149,97,83);
+    color: rgb(149, 97, 83);
     margin: 0;
-    margin-right: 15em;
+    margin-right: 4em;
     font-weight: 800;
-    font-family: 'Outfit',sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 
 .innerNC div {
@@ -125,4 +125,14 @@ img {
     margin-left: 1em;
     font-weight: 500;
     font-family: 'Outfit',sans-serif;
+}
+
+.Nutrition-container{
+    padding-inline: 1em;
+}
+@media(max-width:428px){
+    .container{
+        margin: 0;
+        border-radius: 0;
+    }
 }
